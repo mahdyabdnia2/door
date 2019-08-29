@@ -1,0 +1,86 @@
+.logo-link{
+height: auto;
+float: right;
+margin-right: 30px;
+
+
+}
+
+
+.search-bar{
+background: #C5C5C5;
+width: 550px;
+height:40px ;
+margin-top: 20px;
+margin-right: 60px;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-color: #C5C5C5;
+border-right-color: #C5C5C5;
+border-top-color: #C5C5C5;
+
+float: right;
+text-align: right;
+justify-content: center;
+}
+
+.search-btn{
+float: right;
+background:#498BDD;
+margin-top:20px;
+height: 40px;
+border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+border-bottom-left-radius: 8px;
+border-top-left-radius: 8px;
+background:#373535
+}
+
+.shop-btn{
+margin-top: 20px;
+margin-left: 20px;
+align-content: center;
+justify-content: center;
+}
+
+.shop-icon{
+vertical-align: baseline;
+width: 20px;
+height: 20px;
+}
+
+.bt-app1{
+margin-left: 20px;
+margin-top: 20px;
+color: #100F0F;
+font-size:15px;
+}
+.bt-app1:hover{text-decoration: none}
+
+.bt-app2{
+margin-left: 10px;
+margin-top: 20px;
+color: #100F0F;
+font-size: 15px;
+}
+.bt-app2:hover{text-decoration: none}
+
+.bt-app3{
+margin-left: 10px;
+margin-top: 20px;
+color: #100F0F;
+font-size: 15px;
+}
+.bt-app3:hover{text-decoration: none}
+
+.nav-item{
+margin-right: 20px;
+}
+
+
+
+
+
+
+
+
