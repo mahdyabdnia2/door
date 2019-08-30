@@ -77,6 +77,71 @@ font-size: 15px;
 margin-right: 20px;
 }
 
+.foot{
+
+text-align: right;
+margin-bottom: 0px;
+position: sticky;
+}
+.part2{
+
+background: #343A40;
+}
+
+
+
+.footer-head{
+color:#B9B7B6;
+margin-right: 40px;
+font-family: naz;
+}
+
+.par{
+color: #B9B7B6;
+margin-right: 70px;
+margin-left: 70px;
+}
+
+
+.part1{
+text-align: right;
+background: #EBEDF3
+}
+
+.col-link{text-align: center;
+color: black;
+}
+
+.col-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.col-link:hover{
+text-decoration: none;
+
+}
+.part1:.row{
+margin-top: 20px;
+}
+
+
+.new-bar{
+width: 70%;
+text-align: right;
+height: 25.6%;
+margin-top:15px;
+
+}
+
+.btn-new{
+float: left;
+margin-left:40px;
+margin-top:15px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+height: 25.3%;
+}
 
 
 
