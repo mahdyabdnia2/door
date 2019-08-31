@@ -5,23 +5,16 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-	
-	<link href="cs/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="cs/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="cs/bootstrap-grid.css" rel="stylesheet" type="text/css">
-	<link href="cs/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
-	<link href="cs/bootstrap-reboot.css" rel="stylesheet" type="text/css">
-	<link href="cs/bootstrap-reboot.min.css" rel="stylesheet" type="text/css">
-	<link href="custom.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="custom.css">
+
 	
-<script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
 	
 </head>
@@ -33,12 +26,58 @@
 <button class="search-btn btn btn-dark"><i class="fa fa-search"></i></button>
 
 <button type="button" class="btn btn-outline-dark shop-btn"><span class="badge badge-pill badge-dark" style="font-size: 12px">0</span> <span class="shop-text">سبد خرید</span> <em class="fa fa-shopping-cart shop-icon" style="font-size: 23px"></em></button>
-<button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-link bt-app1">اپلیکیشن دور بازار</button>
-<button class="btn btn-link bt-app2">تولید کننده هستم</button>
+<button type="button" id="btn-modal" data-toggle="modal" data-target="#myModal" class="btn btn-link bt-app1">اپلیکیشن دور بازار</button>
+
+<button class="btn btn-link bt-app2" id=tt>تولید کننده هستم</button>
 <button class="btn btn-link bt-app3">ثبت نام -ورود</button>
+
+<script>
+
+$(document).ready(function(){
+  $("#btn-modal").click(function(){
+    $("#myModal").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+  $("body").dblclick(function(){
+   $("#myModal").fadeOut();
+
+  });
+});
+
+
+</script>
 
   
 </div>
+<div class="modal " id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="float: right">
+          
+          <p>دریافت اپلیکیشن دور بازار</p>
+        </div>
+        <div class="modal-body">
+
+          <a href="#" ><img src="google-play.png"></a>
+          <a href="#" style="margin-left: 10px"><img  src="cafebazar.png"></a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
 <br>
 <div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
