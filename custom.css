@@ -143,6 +143,21 @@ border-bottom-right-radius: 0;
 height: 25.3%;
 }
 
+.dropdown-menu{
+min-width: 300px;
+right:0;
+left:auto;
+
+}
+
+.dropdown-item{
+color: white;
+}
+
+.dropdown-item:hover{
+background: #717981;
+}
+
 
 
 

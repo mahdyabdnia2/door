@@ -19,6 +19,7 @@
 	
 </head>
 <body>
+<header>
 <div>
 <a class="logo-link" href="#"><img src="Untit-5.jpg" width="200" height="80" class="img-fluid" alt=""></a>
 
@@ -29,7 +30,7 @@
 <button type="button" id="btn-modal" data-toggle="modal" data-target="#myModal" class="btn btn-link bt-app1">اپلیکیشن دور بازار</button>
 
 <button class="btn btn-link bt-app2" id=tt>تولید کننده هستم</button>
-<button class="btn btn-link bt-app3">ثبت نام -ورود</button>
+<button class="btn btn-link bt-app3" id="btn-modal2" data-target="myModal1" data-toggle="modal">ثبت نام -ورود</button>
 
 <script>
 
@@ -52,10 +53,62 @@ $(document).ready(function(){
 
 </script>
 
+<script>
+
+$(document).ready(function(){
+  $("#btn-modal2").click(function(){
+    $("#myModal1").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+$("body").dblclick(function(){
+$("#myModal1").fadeOut();
+
+});
+});
+
+
+</script>
+
   
+</div></header>
+
+<div class="modal" id="myModal1" role="dialog">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+
+
 </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
 <div class="modal " id="myModal" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
     
       <!-- Modal content-->
       <div class="modal-content">
@@ -82,12 +135,64 @@ $(document).ready(function(){
 <div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item  ">
-<a class="nav-link " href="#">مواد غذایی</a>
+<li class="nav-item dropdown  " >
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+	  
+	  <script>
+	  $(document).ready(function(){
+	  
+	  $(".navbar ul li").hover(function(){
+	  $(this).children("ul").stop(true).fadeToggle();
+	  });
+	  });
+	  
+	  
+	  </script>
+	  
+	  
+
 </li>
 
-<li class="nav-item  ">
-<a class="nav-link " href="#">مواد غذایی</a>
+
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+</li>
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+</li>
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
 </li>
 
 <li class="nav-item  ">
