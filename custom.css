@@ -174,15 +174,44 @@ border-radius: 16px;
 
 
 .carousel{;margin-top:25px; }
-.carousel-control-prev{left: -30px}
-.carousel-control-next{right: -25px}
+.carousel-control-prev1{left: -30px}
+.carousel-control-next1{right: -25px}
+
+.carousel .thumb-wrapper{
+text-align: center;
+}
+
+.item{
+overflow:hidden;
+}
+
+#carousel2 .carousel-item .row .col{margin-left: 20px;margin-right: 20px;background: grey}
 
 
+.img-box{
+    height: 160px;
+    width: 100%;
+    position: relative;
+}
 
+.carousel-prev-2{left: -60px;}
+.carousel-next-2{right:-60px}
+.ca-ic-pr{
+    font-size: 40px;
+    color: grey;
+}
 
+.ca-ic-ne{
+    font-size: 40px;
+    color: gray
+}
 
-
-
+.ca-ic-pr:hover{
+    color:white;
+}
+.ca-ic-ne:hover{
+    color: white;
+}
 
 
 
