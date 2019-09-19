@@ -189,11 +189,11 @@ overflow:hidden;
 
 
 .img-box{
-    height: 160px;
-    width: 32%;
-    position: relative;
+    height: 180px;
+    width: 55%;
+   
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .carousel-prev-2{left: -60px;width:140px;display: flex;justify-content: center}
@@ -221,7 +221,40 @@ overflow:hidden;
 .thumb-wrapper{
     display: flex;
     justify-content: center;
+    align-content: center;
+  
+    flex-direction: column;
 }
+
+.thumb-content{
+    
+    margin-top: 20px;
+}
+
+.carousel .item h6{
+    color: beige;
+}
+
+.text-danger{
+    color: #D5282B;
+    margin-top: 15px;
+}
+
+.container-part1{
+    background:#F0F0F0}
+
+.carousel{
+    background: #ffffff;
+}
+
+#carousel2{
+    border-color: 
+#F0F0F0;
+border-style: solid;
+    border-radius: 21px;
+    
+}
+
 
 
 
