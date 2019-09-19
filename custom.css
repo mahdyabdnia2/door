@@ -190,33 +190,38 @@ overflow:hidden;
 
 .img-box{
     height: 160px;
-    width: 100%;
+    width: 32%;
     position: relative;
+    display: flex;
+    justify-content: center
 }
 
-.carousel-prev-2{left: -60px;}
-.carousel-next-2{right:-60px}
+.carousel-prev-2{left: -60px;width:140px;display: flex;justify-content: center}
+.carousel-next-2{right:-60px;width: 140px;}
 .ca-ic-pr{
     font-size: 40px;
-    color: grey;
+    color: black;
 }
 
 .ca-ic-ne{
     font-size: 40px;
-    color: gray
+    color: black
 }
 
 .ca-ic-pr:hover{
-    color:white;
+    color:black;
 }
 .ca-ic-ne:hover{
-    color: white;
+    color: black;
 }
 
 
+.clc{display: flex;justify-content: center;}
 
-
-
+.thumb-wrapper{
+    display: flex;
+    justify-content: center;
+}
 
 
 
