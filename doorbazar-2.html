@@ -14,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="custom.css">
+    <script src="cusom.js" ></script>
     
     <script>
 
@@ -67,7 +68,7 @@ $("#myModal1").fadeOut();
 <input type="text" class="search-bar" placeholder="نام برند و کالا را وارد کنید " >
 <button class="search-btn btn btn-dark"><i class="fa fa-search"></i></button>
 
-<button type="button" class="btn btn-outline-dark shop-btn"><span class="badge badge-pill badge-dark" style="font-size: 12px">0</span> <span class="shop-text">سبد خرید</span> <em class="fa fa-shopping-cart shop-icon" style="font-size: 23px"></em></button>
+<button type="button" class="btn btn-outline-dark shop-btn"><span class="badge badge-pill badge-dark" style="font-size: 12px">0</span> <span class="shop-text">سبد خرید</span> <em class="fa fa-shopping-basket shop-icon" style="font-size: 23px"></em></button>
 <button type="button" id="btn-modal" data-toggle="modal" data-target="#myModal" class="btn btn-link bt-app1">اپلیکیشن دور بازار</button>
 
 <button class="btn btn-link bt-app2" id=tt>تولید کننده هستم</button>
@@ -255,10 +256,16 @@ $("#myModal1").fadeOut();
         <br>
         <div class="pric">
             <h6 class="pric-detail">قیمت محصول: 200000 ریال</h6>
-            <hr class="hr-p">
-            <a href="#"> <p><span class="fa fa-angle-left angle"></span>فروشنده:نام فروشنده </p></a>
-        
-        
+             <hr class="hr-p">
+            
+            <a href="#" > <p class="foroshgah"><span class="fa fa-angle-left angle"></span>فروشنده:نام فروشنده </p></a>
+                <hr class="hr-p">
+            
+            <button class="btn btn-shop" >افزودن به سبد خرید <span class="fa fa-shopping-basket"></span></button>
+           
+         
+           
+           
         
         </div>
         
@@ -339,5 +346,50 @@ $("#myModal1").fadeOut();
     
 </body>
 </html>
+
+ <script>
+            $(document).ready(function(){
+                $(".foroshgah").hover(function(){
+                    $(".foroshgah").css("color":"black","font-size":"150%");
+                });
+                 
+            });
+            
+            </script>
+        
+            
+              <script>
+            $(document).ready(function(){
+                $(".foroshgah").mouseleave(function(){
+                    $(".foroshgah").css("color","#635D5D");
+                });
+                 
+            });
+            
+            </script>
+            
+              <script>
+            $(document).ready(function(){
+                $(".btn-shop").hover(function(){
+                    $(".btn-shop").css("opacity","2");
+                });
+                 
+            });
+            
+            </script>
+            
+              <script>
+            $(document).ready(function(){
+                $(".btn-shop").mouseleave(function(){
+                    $(".btn-shop").css("opacity","0.9");
+                });
+                 
+            });
+            
+            </script>
+
+   
+
+
 
 

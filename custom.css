@@ -393,8 +393,10 @@ border-style: solid;
 }
 
 .hr-p{
-    border-top:0.5px solid black ;
+    border-top:0.5px solid #A7A7A7 ;
     display: block;
+    margin-right:15px;
+    margin-left: 15px;
 }
 
 .pric p{margin-right: 12px}
@@ -405,5 +407,18 @@ border-style: solid;
 }
 .pric a{
     color:#635D5D;
+}
+
+.btn-shop{
+    background: #D15A5C;
+    margin: 5px 18px 10px 18px;
+    height: 50px;
+    width: auto;
+    opacity: 0.9;
+    
+}
+
+.btn-shop:hover{
+    box-shadow: 2px 2px 2px 2px #D15A5C;
 }
 
