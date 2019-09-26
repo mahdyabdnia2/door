@@ -434,3 +434,25 @@ border-style: solid;
 }
 
 .carousel-indicators{margin-top:60px;}
+
+.row-tab{
+    margin-right:12px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    background: 
+#FFFFFF}
+
+.row-tab a{
+    font-size: 20px;
+    color:
+    
+#3C3A3A}
+
+.nav-tabs{
+    margin-top:5px
+}
+
+.nav-tabs li{margin-left: -20px;}
+
