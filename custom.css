@@ -456,3 +456,61 @@ border-style: solid;
 
 .nav-tabs li{margin-left: -20px;}
 
+
+.row-in{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top:30px;
+    background: #FFFEFE
+    
+}
+
+.row-in .col--8{width: 970px;
+display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.row .col-3{margin-right: 27px}
+
+.container-part3{
+    background: 
+#DCDADA;
+}
+
+.h-6{
+    margin-top:10px;
+}
+
+.row-inner{
+    display: flex;
+    flex-direction: column;
+    width: 970px;
+}
+
+.row-product{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.delv{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+}
+
+.btn-close{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.product-detail{
+    display: flex;
+    flex-direction: column;
+}
+
