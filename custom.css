@@ -494,6 +494,12 @@ display: flex;
 .row-product{
     display: flex;
     flex-direction: row-reverse;
+   border-bottom-width: 0.5px;
+    border-top-width: 0.5px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color: #C5C5C5;
+    border-top-color: #C5C5C5;
     
 }
 
@@ -512,5 +518,28 @@ display: flex;
 .product-detail{
     display: flex;
     flex-direction: column;
+}
+
+.number-product{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+
+
+}
+
+.form-control{
+  
+    vertical-align:baseline;
+    margin: auto;
+   
+    
+}
+
+.price-product{
+    text-align: center;
+    display: flex;
+    margin: auto;
 }
 

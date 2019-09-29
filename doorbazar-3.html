@@ -255,19 +255,101 @@ $("#myModal1").fadeOut();
         <br>
     <div class="row row-in">
         <div class="col--8" >
-            <h6 class="h-6"><span class="badge badge-danger badge-pill" >2</span>  سبد خرید   </h6>
-            <div  class="row row-inner">
-                <div class="delv"><p>ارسال سریع </p></div>
-            <div class="row-product">
-                <div class="btn-close"> <button type="button" class="close ">&times;</button></div>
+          <h6 class="h-6"><span class="badge badge-pill badge-secondary" >2 </span>  سبد خرید </h6>
+          <div  class="row row-inner">
+            <div class="delv"><p>ارسال در اسرع وقت </p></div>
+            <div class="row-product" id="row-pro">
+                <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
                 <div ><img src="110204720.jpg"></div>
                 <div class="product-detail">
-                <h5>میگوی  پاک کرده 500 گرمی منجمد شده </h5>
-                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>   
+                <h5>1میگوی  پاک کرده 500 گرمی منجمد شده </h5>
+                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>
+                    <p style="text-align: right;">نازلترین قیمت در سطح بازار</p>
                 </div>
+                
+                <div class="number-product">
+                    <p style="margin: auto;">:تعداد</p>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                </div>
+                
+                <script>
+                $(document).ready(function(){
+                   $(".row-product .btn-close .close").click(function(){
+                       $(this).parent().parent().stop(true).remove();
+                   }); 
+                });
+                
+                </script>
+                
+                <div class="price-product">
+                <h5 class="text-info">4000تومان</h5>
+                </div>
+                
+            
+              
+                </div>
+               <div class="row-product" id="row-pro">
+                <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
+                <div ><img src="110204720.jpg"></div>
+                <div class="product-detail">
+                <h5>میگوی  پاک کرده 500 گرمی منجمد شده2 </h5>
+                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>
+                    <p style="text-align: right;">نازلترین قیمت در سطح بازار</p>
+                </div>
+                
+                <div class="number-product">
+                    <p style="margin: auto;">:تعداد</p>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                </div>
+                
+                <div class="price-product">
+                <h5 class="text-info">4000تومان</h5>
+                </div>
+                
+                
                
+              
                 </div>
-             <div class="row-product"></div>
+              
+              
+                <div class="row-product" id="row-pro">
+                <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
+                <div ><img src="110204720.jpg"></div>
+                <div class="product-detail">
+                <h5>3میگوی  پاک کرده 500 گرمی منجمد شده </h5>
+                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>
+                    <p style="text-align: right;">نازلترین قیمت در سطح بازار</p>
+                </div>
+                
+                <div class="number-product">
+                    <p style="margin: auto;">:تعداد</p>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                </div>
+                
+                <div class="price-product">
+                <h5 class="text-info">4000تومان</h5>
+                </div>
+                
+                
+               
+                    
+              
+                </div>
+              
+              
+              
             </div>
         
         
