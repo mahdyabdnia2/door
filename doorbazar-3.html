@@ -253,10 +253,10 @@ $("#myModal1").fadeOut();
     
     <div class="container-fluid container-part3">
         <br>
-    <div class="row row-in">
-        <div class="col--8" >
+    <div class="row row-in"style="background: #DCDADA">
+        <div class="col--8" style="background: white">
           <h6 class="h-6"><span class="badge badge-pill badge-secondary" >2 </span>  سبد خرید </h6>
-          <div  class="row row-inner">
+          <div  class="row row-inner"  >
             <div class="delv"><p>ارسال در اسرع وقت </p></div>
             <div class="row-product" id="row-pro">
                 <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
@@ -292,6 +292,75 @@ $("#myModal1").fadeOut();
             
               
                 </div>
+                 <div class="row-product" id="row-pro">
+                <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
+                <div ><img src="110204720.jpg"></div>
+                <div class="product-detail">
+                <h5>1میگوی  پاک کرده 500 گرمی منجمد شده </h5>
+                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>
+                    <p style="text-align: right;">نازلترین قیمت در سطح بازار</p>
+                </div>
+                
+                <div class="number-product">
+                    <p style="margin: auto;">:تعداد</p>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                </div>
+                
+                <script>
+                $(document).ready(function(){
+                   $(".row-product .btn-close .close").click(function(){
+                       $(this).parent().parent().stop(true).remove();
+                   }); 
+                });
+                
+                </script>
+                
+                <div class="price-product">
+                <h5 class="text-info">4000تومان</h5>
+                </div>
+                
+            
+              
+                </div>
+                 <div class="row-product" id="row-pro">
+                <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
+                <div ><img src="110204720.jpg"></div>
+                <div class="product-detail">
+                <h5>1میگوی  پاک کرده 500 گرمی منجمد شده </h5>
+                 <p style="margin-top:20px;text-align: right;">تولید کننده:<a href="#">دی جی کالا</a> </p>
+                    <p style="text-align: right;">نازلترین قیمت در سطح بازار</p>
+                </div>
+                
+                <div class="number-product">
+                    <p style="margin: auto;">:تعداد</p>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                </div>
+                
+                <script>
+                $(document).ready(function(){
+                   $(".row-product .btn-close .close").click(function(){
+                       $(this).parent().parent().stop(true).remove();
+                   }); 
+                });
+                
+                </script>
+                
+                <div class="price-product">
+                <h5 class="text-info">4000تومان</h5>
+                </div>
+                
+            
+              
+                </div>
+              
                <div class="row-product" id="row-pro">
                 <div class="btn-close"> <button type="button" class="close" data-dismiss="row-product">&times;</button></div>
                 <div ><img src="110204720.jpg"></div>
@@ -356,7 +425,32 @@ $("#myModal1").fadeOut();
         
         </div>
         
-        <div class="col-3" style="height: 30px;background: red"></div>
+        <div class="col-3" style="background: white;height: 400px;">
+            <br/>
+                    <div class="price-box" >
+                        <br/>
+                       
+                                          <div class="price-box-inner"><h6>30000تومان</h6><h6>مبلغ کل:  </h6>  </div>
+                        <hr>
+                                         <div class="price-box-inner"> <h6>رایگان</h6><h6>مبلغ ارسال:</h6> </div>
+                        <hr>
+                                          <h5>ملغ قابل پرداخت:</h5>
+                        <h5 class="text-info">450000 تومان</h5>
+                                           
+                        <hr>
+                        <hr>
+                                          
+                                        
+                                          <button type="button" class="btn btn-danger">ادامه فرایند ثبت سفارش</button>
+                                          
+                                          
+                                          </div>
+                    
+                    
+                    
+                    
+                    
+                    </div>
         
         
         </div>
