@@ -513,17 +513,53 @@ border-style: solid;
 .price-process{
     
     display: flex;flex-grow:1.2;background: white;width: auto;   border:#ADADAD solid 0.5px;flex-direction:column;
-    text-align: center;
+    
 }
 
 .whole-price{
     
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    margin: auto
+    
+    
 }
+
+.whole-price .dp2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
 
 .delivery-price{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    margin: auto;
 }
 
+.price-button button{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    
+}
+.price-button{
+    text-align: center;
+    margin: auto;
+}
+
+.price-pay{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.price-pay .text-danger{
+    margin-top: -3px;
+    margin-bottom: 20px
+}
