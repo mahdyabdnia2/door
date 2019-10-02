@@ -483,7 +483,13 @@ border-style: solid;
 .row-product{display: flex;flex-grow: 8;background: white;flex-direction: row-reverse;width: auto;}
 
 .row-product-in{
-    display: flex;flex-grow:8;background: white;border:#ACA8A8 solid 0.5px;flex-direction: row-reverse;
+    display: flex;flex-grow:3.5;background: white;border:#ADADAD solid 0.5px;flex-direction: column;width: auto;
+}
+
+.row-box{
+    display: flex;
+    flex-direction: row-reverse;
+    border:#ADADAD solid 0.5px;
 }
 
 .product-detail{
@@ -503,3 +509,21 @@ border-style: solid;
     text-align: center
     
 }
+
+.price-process{
+    
+    display: flex;flex-grow:1.2;background: white;width: auto;   border:#ADADAD solid 0.5px;flex-direction:column;
+    text-align: center;
+}
+
+.whole-price{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.delivery-price{
+    display: flex;
+    flex-direction: row;
+}
+
