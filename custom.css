@@ -588,3 +588,8 @@ border-style: solid;
     margin-left: -15px;
     margin-right: -15px;
 }
+
+.sign-in label{
+    text-align: right;
+    
+}
