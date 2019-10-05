@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="custom.css">
+</head>
+    <body style=" background: #DCDCDC;">
+     <script>
+
+$(document).ready(function(){
+  $("#btn-modal").click(function(){
+    $("#myModal").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+  $("body").dblclick(function(){
+   $("#myModal").fadeOut();
+
+  });
+});
+
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+  $("#btn-modal2").click(function(){
+    $("#myModal1").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+$("body").dblclick(function(){
+$("#myModal1").fadeOut();
+
+});
+});
+
+
+</script>
+    
+</head>
+
+<body>
+    <header style="background: white;">
+<div>
+<a class="logo-link" href="#"><img src="Untit-5.jpg" width="200" height="80" class="img-fluid" alt=""></a>
+
+<input type="text" class="search-bar" placeholder="نام برند و کالا را وارد کنید " >
+<button class="search-btn btn btn-dark"><i class="fa fa-search"></i></button>
+
+<button type="button" class="btn btn-outline-dark shop-btn"><span class="badge badge-pill badge-dark" style="font-size: 12px">0</span> <span class="shop-text">سبد خرید</span> <em class="fa fa-shopping-basket shop-icon" style="font-size: 23px"></em></button>
+<button type="button" id="btn-modal" data-toggle="modal" data-target="#myModal" class="btn btn-link bt-app1">اپلیکیشن دور بازار</button>
+
+<button class="btn btn-link bt-app2" id=tt>تولید کننده هستم</button>
+<button class="btn btn-link bt-app3" id="btn-modal2" data-target="myModal1" data-toggle="modal">ثبت نام -ورود</button>
+
+<script>
+
+$(document).ready(function(){
+  $("#btn-modal").click(function(){
+    $("#myModal2").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+  $("body").dblclick(function(){
+   $("#myModal2").fadeOut();
+
+  });
+});
+
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+  $("#btn-modal2").click(function(){
+    $("#myModal1").fadeIn();
+  });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+$("window").click(function(){
+$("#myModal1").fadeOut();
+
+});
+});
+
+
+</script>
+
+  
+</div>
+
+<div class="modal" id="myModal1" role="dialog">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+    <div class="modal-header"> <button class="close">&times;</button></div>
+<div class="modal-body">
+    <div class="tab-panel">
+    <button class="btn btn-dark btn-up">ثبت نام</button>
+        <button class="btn btn-dark btn-in">ورود</button>
+    </div>
+    
+    <script>
+        
+        $(document).ready(function(){
+            $(".btn-up").click(function(){
+                $(".sign-in").hide();
+                $(".sign-up").show();
+            });
+        });
+        
+    </script>
+     <script>
+        
+        $(document).ready(function(){
+            $(".btn-in").click(function(){
+                $(".sign-in").show();
+                $(".sign-up").hide();
+            });
+        });
+        
+    </script>
+    
+    <div class="tab-cont">
+        <div  class="sign-in" style="">
+        <form>
+            
+            <div class="form-group" >
+            <label>نام کاربری</label>
+                <input align="right" class="form-control">
+            </div>
+            
+            <div class="form-group">
+            <label>پسورد</label>
+                <input align="right"  class="form-control">
+            </div>
+            <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">مرا به خاطر بسپار
+                
+                </label>
+            
+            </div>
+            
+            <div class="form-group">
+            <button class="form-control btn btn-success">ورود</button>
+            </div>
+            
+            
+            </form>
+        </div>
+        
+        <div class="sign-up" style="display: none">
+        <div class="form-group">
+            <label>نام </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>نام خوانوادگی </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>نام کاربری</label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>گذر واژه  </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>تکرار گذر واژه </label>
+            <input class="form-control">
+            
+            </div>
+        
+            <div class="form-group">
+            <label>کد اقتصادی </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <button class="form-control btn btn-success">ثبت نام</button>
+            </div>
+        
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="modal " id="myModal2" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="float: right">
+          
+          <p>دریافت اپلیکیشن دور بازار</p>
+        </div>
+        <div class="modal-body">
+
+          <a href="#" ><img src="google-play.png"></a>
+          <a href="#" style="margin-left: 10px"><img  src="cafebazar.png"></a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+
+<br>
+<div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item dropdown  " >
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+	  
+	  <script>
+	  $(document).ready(function(){
+	  
+	  $(".navbar ul li").hover(function(){
+	  $(this).children("ul").stop(true).fadeToggle();
+	  });
+	  });
+	  
+	  
+	  </script>
+	  
+	  
+
+</li>
+
+
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+</li>
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+</li>
+
+<li class="nav-item dropdown ">
+<a class="nav-link  " href="#" id="navbardrop" > <i id="span-dop" class="fa fa-caret-down"></i>    مواد غذایی</a>
+ <ul class="dropdown-menu" id="dropdown" style="text-align: right ;background: #343A40">
+      <li> <a class="dropdown-item" href="#"> <i class=" fa fa-angle-left"></i>  لینک1 </a></li> 
+		
+		
+     <li> <a class="dropdown-item" href="#">لینک2 </a></li>  
+     <li> <a class="dropdown-item" href="#">لینک3 </a></li>  
+      </ul>
+</li>
+
+
+
+
+
+
+</ul>
+
+</nav>
+
+
+</div></header>
+    
+    
+    <div class="container-fluid container-part4">
+    <div class="row row-in4">
+        <div class="options"  style="background: red">ghhgghghghghghghghggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div>
+        <div style="width: 1%;"> </div>
+        <div class="goods" style="background: white">
+        <ul>
+            <li>
+                <div class="img" ><img class="img-fluid" src="mobile.jpg"></div>
+                <div class="product-name"><p>گوشی گلکسی نوت  10 دو سیم کارته</p> </div>
+                <div class="product-price">
+                <h5 class="text-info"><b>4,450,000 تومان  </b></h5>
+                </div>
+                
+                <div class="actions" style="z-index: 1;top:100px;">
+                <button class="btn btn-dark"></button>
+                     <button class="btn btn-dark"></button>
+                    
+                </div>
+                
+                
+                </li>
+            
+            </ul>
+        
+        
+        
+        
+        </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
