@@ -127,11 +127,33 @@ $("#myModal1").fadeOut();
     <div class="modal-header"> <button class="close">&times;</button></div>
 <div class="modal-body">
     <div class="tab-panel">
-    <button class="btn btn-dark">ثبت نام</button>
-        <button class="btn btn-dark">ورود</button>
+    <button class="btn btn-dark btn-up">ثبت نام</button>
+        <button class="btn btn-dark btn-in">ورود</button>
     </div>
+    
+    <script>
+        
+        $(document).ready(function(){
+            $(".btn-up").click(function(){
+                $(".sign-in").fadeOut();
+                $(".sign-up").fadeIn();
+            });
+        });
+        
+    </script>
+     <script>
+        
+        $(document).ready(function(){
+            $(".btn-in").click(function(){
+                $(".sign-in").fadeIn();
+                $(".sign-up").fadeOut();
+            });
+        });
+        
+    </script>
+    
     <div class="tab-cont">
-        <div  class="sign-in">
+        <div  class="sign-in" style="">
         <form>
             
             <div class="form-group" >
@@ -143,13 +165,64 @@ $("#myModal1").fadeOut();
             <label>پسورد</label>
                 <input align="right"  class="form-control">
             </div>
+            <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">مرا به خاطر بسپار
+                
+                </label>
+            
+            </div>
             
             <div class="form-group">
-            <button class="form-control btn btn-info">ورود</button>
+            <button class="form-control btn btn-success">ورود</button>
             </div>
             
             
             </form>
+        </div>
+        
+        <div class="sign-up" style="display: none">
+        <div class="form-group">
+            <label>نام </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>نام خوانوادگی </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>نام کاربری</label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>گذر واژه  </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <label>تکرار گذر واژه </label>
+            <input class="form-control">
+            
+            </div>
+        
+            <div class="form-group">
+            <label>کد اقتصادی </label>
+            <input class="form-control">
+            
+            </div>
+            
+            <div class="form-group">
+            <button class="form-control btn btn-success">ثبت نام</button>
+            </div>
+        
+        
         </div>
     
     
