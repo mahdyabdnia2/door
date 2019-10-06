@@ -651,10 +651,15 @@ display: inline-block;
 .actions{
     text-align: center;
     z-index: 1;
+    background: 
+#555F69;
+z-index: -1;
+visibility: hidden
 }
 
 .actions button{
     margin-right: 20px;
     margin-left: 20px;
-    width: 80px
+    width: 80px;
+    
 }
