@@ -764,9 +764,9 @@ padding-bottom: 15px;
 
 .side-nav{
     width: 15%;
-    background-color:#616161;
+    background-color:#1E1E66;
     text-align: right;
-margin-top: 30px;
+margin-top: 20px;
 margin-right: 20px;
 }
 
@@ -803,11 +803,11 @@ margin-right: 20px;
 }
 
 body{
-    overflow: hidden;
+    
 }
 
 .side-nav ul li ul{
-    background: #616161;
+    background: #1E1E66;
     width:50%;
     
     margin:auto; 

@@ -23,10 +23,30 @@
         <div class="side-nav">
             <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#">hghgh</a></li>
-            <li class="nav-item dropdown"><a class="nav-link" href="#">hghgh</a>
+            <li class="nav-item dropdown"><a class="nav-link" href="#">دسته بندی ها</a>
                 <ul class="dropdown-menu dropdown-mnu" >
-                <li><a class="dropdown-item">dfdf</a></li>
-                    <li><a class="dropdown-item">dfdf</a></li>
+                <li><a class="dropdown-item">افزودن  دسته بندی</a></li>
+                    <li><a class="dropdown-item">ویرایش دسته بندی</a></li>
+                    <li><a class="dropdown-item">حذف دسته بندی</a></li>
+                    <script>
+                    $(document).ready(function(){
+                        $(".side-nav ul li").click(function(){
+                            $(this).children("ul").stop(true).slideToggle();
+                        });
+                    });
+                    
+                    
+                    </script>
+                   
+                </ul>
+                
+                </li>
+                
+                      <li class="nav-item dropdown"><a class="nav-link" href="#">کالا</a>
+                <ul class="dropdown-menu dropdown-mnu" >
+                <li><a class="dropdown-item">افزودن کالا</a></li>
+                    <li><a class="dropdown-item">ویرایش کالا</a></li>
+                     <li><a class="dropdown-item">حذف کالا</a></li>
                     
                     <script>
                     $(document).ready(function(){
@@ -42,10 +62,13 @@
                 
                 </li>
                 
-                      <li class="nav-item dropdown"><a class="nav-link" href="#">hghgh</a>
+                      <li class="nav-item dropdown"><a class="nav-link" href="#">اعضا</a>
                 <ul class="dropdown-menu dropdown-mnu" >
-                <li><a class="dropdown-item">dfdf</a></li>
-                    <li><a class="dropdown-item">dfdf</a></li>
+                <li><a class="dropdown-item">تایید عضویت</a></li>
+                    <li><a class="dropdown-item">تعلیق عضویت</a></li>
+                    <li><a class="dropdown-item">تعلیق عضویت</a></li>
+                    <li><a class="dropdown-item">تعلیق عضویت</a></li>
+                    <li><a class="dropdown-item">تعلیق عضویت</a></li>
                     
                     <script>
                     $(document).ready(function(){
@@ -61,10 +84,12 @@
                 
                 </li>
                 
-                      <li class="nav-item dropdown"><a class="nav-link" href="#">hghgh</a>
+                
+                      <li class="nav-item dropdown"><a class="nav-link" href="#">کالا</a>
                 <ul class="dropdown-menu dropdown-mnu" >
-                <li><a class="dropdown-item">dfdf</a></li>
-                    <li><a class="dropdown-item">dfdf</a></li>
+                <li><a class="dropdown-item">افزودن کالا</a></li>
+                    <li><a class="dropdown-item">ویرایش کالا</a></li>
+                     <li><a class="dropdown-item">حذف کالا</a></li>
                     
                     <script>
                     $(document).ready(function(){
