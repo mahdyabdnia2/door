@@ -763,16 +763,21 @@ padding-bottom: 15px;
 }
 
 .side-nav{
+    height: auto;
     width: 15%;
-    background-color:#616161;
+    background-color:#1E1E66;
     text-align: right;
-margin-top: 30px;
+margin-top: 20px;
 margin-right: 20px;
+    overflow:auto;
+    
 }
 
 
 .main{
     width: 83%;
+    margin-top: 30px;
+    margin-right: 10px;
     
 
 }
@@ -800,14 +805,16 @@ margin-right: 20px;
 .side-nav ul li a:hover{
     text-decoration: none;
     color: #DADADA;}
-}
+
 
 body{
-    overflow: hidden;
+    
+    overflow-x: hidden
+    
 }
 
 .side-nav ul li ul{
-    background: #616161;
+    background: #1E1E66;
     width:50%;
     
     margin:auto; 
@@ -821,4 +828,88 @@ body{
 .dropdown-mnu{
     min-width: 100%;
     text-align: right;
+}
+
+.side-nav hr{
+    margin-bottom: auto;
+    background: aliceblue;
+}
+
+.ro1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ro1-part1{
+    background: #E4F798;
+    width: 48%;
+        border: 0.2px solid 
+#B7B7B7;
+}
+.ro1-part1 p{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.ro1-part1 div {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.ro1-part1 div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+   
+}
+
+.ro1-part1 div div p{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ro1-part2{
+    width: 24%;
+    background: 
+#B94462}
+
+.ro1-part2 .p1{
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    margin-top: -20px;
+    
+}
+.ro1-part2 .p2{
+    text-align: center;
+    margin-right: -50px;
+    color: white;
+    
+    
+}
+
+.ro1-part3{
+    width: 24%;
+    background:#19A790}
+
+.ro1-part3 .p1{
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    margin-top: -20px;
+    
+}
+.ro1-part3 .p2{
+    text-align: center;
+    margin-right: -50px;
+    color: white;
+    
+    
+}
+
+.em-div{
+    width: 1%;
 }
