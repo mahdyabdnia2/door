@@ -779,8 +779,21 @@ margin-right: 20px;
     margin-top: 30px;
     margin-right: 10px;
     
+    
 
 }
+
+.main2{
+    width: 81%;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #FFFFFF;
+    
+
+}
+
+.roww{background: #E5E5E5;}
 
 .container-part5 .row{
     display: flex;
