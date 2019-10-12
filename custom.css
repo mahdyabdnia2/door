@@ -789,6 +789,7 @@ margin-right: 20px;
     margin-right: 10px;
     margin-left: 10px;
     background: #FFFFFF;
+    border:solid 0.2px #C1BDBD;
     
 
 }
@@ -925,4 +926,43 @@ body{
 
 .em-div{
     width: 1%;
+}
+
+.btn-gr{
+    text-align: center
+}
+.btn-gr button{
+    margin: 20px 10px 0px 10px;
+}
+
+.header h6{
+    text-align: right;
+    margin: 10px 20px 10px 0px
+}
+
+
+.main2 .form-group label{
+    display: block;
+    margin: 10px 100px 10px 10px;
+    text-align:right;
+}
+
+.main2 .form-group input{
+    width: 80%;
+    margin-left: 110px;
+    
+}
+
+.main2 .form-group select{
+    width: 80%;
+    margin-left: 110px;
+}
+
+.main2 .form-group select option{
+    text-align: right;
+}
+
+.main2 .form-group textarea{
+    width: 80%;
+    margin-left: 110px;
 }
