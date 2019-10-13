@@ -950,19 +950,26 @@ body{
 .main2 .form-group input{
     width: 80%;
     margin-left: 110px;
+    display: block;
+    text-align: right;
     
 }
 
 .main2 .form-group select{
     width: 80%;
     margin-left: 110px;
+   
 }
 
 .main2 .form-group select option{
     text-align: right;
+     display: block;
+
 }
 
 .main2 .form-group textarea{
     width: 80%;
     margin-left: 110px;
+    display: block;
+    text-align: right;
 }
