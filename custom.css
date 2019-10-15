@@ -973,3 +973,13 @@ body{
     display: block;
     text-align: right;
 }
+
+
+
+.table-div table {
+    direction: rtl;
+    width: 80%;
+   margin-right: 80px;
+    margin-left: auto;
+    text-align: right;
+}
