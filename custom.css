@@ -947,11 +947,18 @@ body{
     text-align:right;
 }
 
-.main2 .form-group input{
+.main2 .form-group .form-input{
     width: 80%;
     margin-left: 110px;
     display: block;
     text-align: right;
+    
+}
+
+.main2 .form-group input{
+    width: 80%;
+    margin-left: 110px;
+    
     
 }
 
