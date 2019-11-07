@@ -990,3 +990,53 @@ body{
     margin-left: auto;
     text-align: right;
 }
+
+.table-div .opt{
+    text-align:center;
+}
+
+.table-div .opt button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vert-table table{
+    direction: rtl;
+    width: 90%;
+     margin-right: 80px;
+    margin-left: auto;
+    text-align: right;
+    
+}
+.tdd{
+    width:82%; 
+    font-size: 16px;
+    font-style: normal;
+    color: 
+#292828;}
+
+.tdh{
+    width: 18%;
+}
+
+.bt-del{
+    background:  #A33537;
+    color: white;
+    
+}
+
+.bt-del:hover{
+    color:#D9D3D3;
+      box-shadow: 1px 2px 2px 2px #B92424; 
+}
+
+.bt-ye{
+    color: white;
+    background: #3D827D;}
+
+.bt-ye:hover{
+    color: #D9D3D3;
+     box-shadow: 1px 2px 2px 2px #3D827D;
+    
+}
+
